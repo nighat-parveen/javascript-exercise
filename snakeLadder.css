@@ -38,6 +38,7 @@ body {
 
 .cell.fill {
     background-color: aliceblue;
+    color: black;
 }
 
 .snake {
