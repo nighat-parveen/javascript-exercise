@@ -7,9 +7,31 @@
     <link rel="stylesheet" href="snakeLadder.css">
 </head>
 <body>
-    <div class="board">
+    <!-- player score board -->
+    <div class="player-score-board">
+        <div class="player-info">
+            <p class="player-name p1_name">Player 👦🏻 </p>
+            <p class="player-score p1_score">0</p>
+        </div>
+        <div class="player-info">
+            <p class="player-name p2_name">Player 👨🏼‍🎤</p>
+            <p class="player-score p2_score score">0</p>
+        </div>
     </div>
+    <!-- snake Ladder Board  -->
+    <div class="board"></div>
 
+    <!-- action buttons -->
+    <div class="toolbar">
+        <button class="play">Play</button>
+        <div class="dice">.</div>
+        <button class="reset">Reset</button>
+
+    </div>
+    <div class="players">
+        <button class="player1">👤 Player 1</button>
+        <button class="player2">👤 Player 2</button>
+    </div>
     <script src="snakeLadder.js" defer></script>
 
 </body>
