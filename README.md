@@ -1,2 +1,3 @@
-# javascript-exercise
-this is exercising repo
+# Snale ladder Game
+developed in javascript
+
