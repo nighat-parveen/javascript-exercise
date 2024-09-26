@@ -78,7 +78,7 @@ function updateBoard() {
         resetPlayerPosition()
         play2Score += Number(dice.innerText);
         updatescore('.p2_score', play2Score);
-        setPlayer(play2Score, player2)
+        setPlayer(play2Score, player2);
     }
 }  
 
