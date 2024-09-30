@@ -330,9 +330,22 @@ class Graph {
                 }
             }
         }
+    }
 
-        console.log(distance);
 
+    // prim's Algorithm - undirected Graph
+    addEdgeWithWeight(srcVer, destVer, weight) {
+        if(this.adjacencyList[srcVer]) {
+            this.adjacencyList[srcVer].push([destVer, weight]);
+        }
+
+        if(this.adjacencyList[destVer]) {
+            this.adjacencyList[destVer].push([srcVer, weight]);
+        }
+    }
+
+    displayAdjencyList() {
+        console.log(this.adjacencyList);
     }
 
 };
@@ -346,7 +359,7 @@ graph.addVertex('B');
 graph.addVertex('C');
 graph.addVertex('D');
 graph.addVertex('E');
-graph.addVertex('F');
+// graph.addVertex('F');
 // graph.addVertex('G');
 // graph.addVertex('H');
 // graph.addVertex('I');
@@ -453,30 +466,62 @@ graph.addVertex('F');
 
 // shortest pathe using DFS - directed Graph
 
-graph.addDWEdge('A', 'F', 6);
-graph.addDWEdge('A', 'C', 2);
+// graph.addDWEdge('A', 'F', 6);
+// graph.addDWEdge('A', 'C', 2);
 
-graph.addDWEdge('B', 'A', 5);
-graph.addDWEdge('B', 'C', 3);
+// graph.addDWEdge('B', 'A', 5);
+// graph.addDWEdge('B', 'C', 3);
 
-graph.addDWEdge('C', 'F', 7);
-graph.addDWEdge('C', 'E', 4);
-graph.addDWEdge('C', 'D', 2);
+// graph.addDWEdge('C', 'F', 7);
+// graph.addDWEdge('C', 'E', 4);
+// graph.addDWEdge('C', 'D', 2);
 
-graph.addDWEdge('E', 'D', -2);
-graph.addDWEdge('F', 'E', -1);
+// graph.addDWEdge('E', 'D', -2);
+// graph.addDWEdge('F', 'E', -1);
 
-// display adjency list
-graph.printAdjListWithWeight();
+// // display adjency list
+// graph.printAdjListWithWeight();
 
-// call DisplayGraph
+// // call DisplayGraph
 
-graph.callShortestPathUsingDFSDW('A', 'F');
-
-
+// graph.callShortestPathUsingDFSDW('A', 'F');
 
 
+// find minimum spanning tree using Prim's Algorithm - Undirected Graph
 
+// Create Edges between vertex
+graph.addEdgeWithWeight('A', 'B', 2);
+graph.addEdgeWithWeight('A', 'D', 6);
+
+graph.addEdgeWithWeight('B', 'A', 2);
+graph.addEdgeWithWeight('B', 'D', 8);
+graph.addEdgeWithWeight('B', 'E', 5);
+graph.addEdgeWithWeight('B', 'C', 3)
+
+graph.addEdgeWithWeight('C', 'B', 3);
+graph.addEdgeWithWeight('C', 'E', 7);
+
+graph.addEdgeWithWeight('D', 'A', 6);
+graph.addEdgeWithWeight('D', 'B', 8);
+
+graph.addEdgeWithWeight('E', 'B', 5);
+graph.addEdgeWithWeight('E', 'C', 7);
+
+graph.displayAdjencyList();
+
+
+
+
+
+
+
+
+
+
+
+
+
+// step 1: create Adjency list
 
 
 

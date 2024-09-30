@@ -1,0 +1,602 @@
+.container--0- {
+    position: relative;
+    width: 1280px;
+    height: 3887px;
+    background-color: #f3f6f7;
+    box-shadow: 0px 23px 28px -7 #002329, 0px 16px 10px -7 #002329,
+      0px 24px 48px -10 #002329;
+    justify-content: start;
+    align-items: center;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+  .container-0-1-0 {
+    position: relative;
+    width: auto;
+    height: auto;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0px 24px 0px;
+  }
+  .container-1-2-0 {
+    position: relative;
+    width: 1040px;
+    height: 348px;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 0px 44px 0px;
+  }
+  .container-2-3-0 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+    gap: 24px;
+    display: flex;
+  }
+  .container-3-4-0 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-3-4-1 {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-2-3-1 {
+    position: absolute;
+    left: 184px;
+    top: 0px;
+    width: 120px;
+    height: 43px;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+  }
+  .text-4-5-0 {
+    width: 100%;
+    height: 100%;
+    color: #0d1112a6;
+    font-size: 11px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-3-4-1 {
+    position: relative;
+    width: 400px;
+    height: 443px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f39f67;
+    justify-content: start;
+    align-items: center;
+    border-radius: 8px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 28px 24px 28px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .container-3-4-2 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-3-4-3 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-2-3-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #0c75de;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    gap: 8px;
+    display: flex;
+    padding: 8px 16px 8px 16px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .container-4-5-0 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+  }
+  .container-5-6-0 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-6-7-0 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 24px 24px 24px;
+  }
+  .text-4-5-1 {
+    width: 100%;
+    height: 100%;
+    color: #0d69d6;
+    font-size: 15px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-4-5-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: start;
+    gap: 12px;
+    display: flex;
+  }
+  .container-0-1-1 {
+    position: relative;
+    width: auto;
+    height: auto;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0px 44px 0px;
+  }
+  .text-5-6-0 {
+    width: auto;
+    height: auto;
+    color: #b0500a;
+    font-size: 12px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: center;
+    vertical-align: top;
+  }
+  .text-5-6-1 {
+    width: 100%;
+    height: 100%;
+    color: #0d1112;
+    font-size: 18px;
+    font-family: Inter, "Semi Bold";
+    font-weight: 600;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-7-8-0 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+  }
+  .container-8-9-0 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+  }
+  .text-6-7-1 {
+    width: 100%;
+    height: 100%;
+    color: #b0500a;
+    font-size: 15px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-6-7-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+  .container-5-6-1 {
+    position: absolute;
+    left: 44px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-0-1-2 {
+    position: relative;
+    width: auto;
+    height: auto;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 0px 44px 0px;
+  }
+  .container-4-5-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: start;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-0-1-3 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 0px 44px 0px;
+  }
+  .container-6-7-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 64px;
+    height: 64px;
+    background-color: #0c75de;
+    justify-content: start;
+    align-items: start;
+    border-radius: 11px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+  }
+  .text-7-8-0 {
+    width: 100%;
+    height: 100%;
+    color: #0d111273;
+    font-size: 17px;
+    font-family: Open Sans, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-0-1-4 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 0px 44px 0px;
+  }
+  .text-4-5-3 {
+    width: 100%;
+    height: 100%;
+    color: #0d69d6;
+    font-size: 15px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-5-6-2 {
+    position: absolute;
+    left: 88px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-5-6-3 {
+    position: absolute;
+    left: 132px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-5-6-4 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: center;
+    gap: 6px;
+    display: flex;
+  }
+  .container-0-1-5 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #f3f6f7;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 0px 44px 0px;
+  }
+  .text-2-3-0 {
+    width: 100%;
+    height: 100%;
+    color: #0d1112;
+    font-size: 26px;
+    font-family: Inter, "Bold";
+    font-weight: 700;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-1-2-1 {
+    position: relative;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+  }
+  .text-6-7-0 {
+    width: 100%;
+    height: 100%;
+    color: #843cef;
+    font-size: 18px;
+    font-family: Inter, "Bold";
+    font-weight: 700;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-0-1-6 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #f9fbfb;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-7-8-1 {
+    width: 100%;
+    height: 100%;
+    color: #0d1112;
+    font-size: 64px;
+    font-family: Inter, "Semi Bold";
+    font-weight: 600;
+    text-align: left;
+    vertical-align: top;
+  }
+  .text-7-8-2 {
+    width: 100%;
+    height: 100%;
+    color: #0d111273;
+    font-size: 15px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-5-6-5 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: center;
+    gap: 6px;
+    display: flex;
+  }
+  .container-0-1-7 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #0c75de;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 0px 44px 0px;
+  }
+  .container-2-3-3 {
+    position: absolute;
+    left: 552px;
+    top: 0px;
+    width: 120px;
+    height: 43px;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+  }
+  .container-2-3-4 {
+    position: absolute;
+    left: 736px;
+    top: 0px;
+    width: 120px;
+    height: 43px;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+  }
+  .container-2-3-5 {
+    position: absolute;
+    left: 920px;
+    top: 0px;
+    width: 120px;
+    height: 43px;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+  }
+  .container-0-1-8 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #334447;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-2-3-1 {
+    width: 600px;
+    height: 84px;
+    color: #ffffffa6;
+    font-size: 22px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: center;
+    vertical-align: top;
+  }
+  .container-0-1-9 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-4-5-2 {
+    width: 100%;
+    height: 100%;
+    color: #0d69d6;
+    font-size: 15px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .text-4-5-4 {
+    width: 100%;
+    height: 100%;
+    color: #0d69d6;
+    font-size: 15px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .text-4-5-5 {
+    width: 100%;
+    height: 100%;
+    color: #0d69d6;
+    font-size: 15px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-3-4-4 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-4-5-6 {
+    width: 100%;
+    height: 100%;
+    color: #0d69d6;
+    font-size: 15px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .text-4-5-7 {
+    width: 100%;
+    height: 100%;
+    color: #0d69d6;
+    font-size: 15px;
+    font-family: Inter, "Regular";
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+  }
+  .container-3-4-5 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+  }
