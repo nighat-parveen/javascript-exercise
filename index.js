@@ -348,6 +348,61 @@ class Graph {
         console.log(this.adjacencyList);
     }
 
+    callMinimumSpanningTreeUsingPrimAlgo(src) {
+        // create datastructure for keys, parent, mst(minimum spanning tree visited track)
+        let keys = {};
+        let parent = {};
+        let mst = {};
+
+        // traverse through all DS and set default value
+        for(let node in this.adjacencyList) {
+            keys[node] = Infinity;
+            parent[node] = -1;
+            mst[node] = false;
+        }
+        
+        keys[src] = 0;
+        parent[src] = -1;
+
+        for(let i in this.adjacencyList) {
+            let min = Infinity;
+            let vertex;
+            for(let item in keys) {
+                if(keys[item] < min && mst[item] == false) {
+                   vertex = item;
+                   min = keys[item]; 
+                }
+            }
+            mst[vertex] = true;
+
+            for(let neighbour of this.adjacencyList[vertex]) {
+                let adjNode = neighbour[0];
+                let adjNodeWeight = neighbour[1];
+                if(adjNodeWeight < keys[adjNode]&&mst[adjNode] == false) {
+                    keys[adjNode] = adjNodeWeight;
+                    parent[adjNode] = vertex;
+                }
+                
+            }
+
+            
+        }
+
+        const lst = {}
+        // print MST 
+        for(let item in parent) {
+            if(parent[item] !== -1) {
+                if(lst[item])
+                lst[item].push(parent[item]);
+                else
+                lst[item] = [parent[item]];
+            }
+        }
+
+        return lst
+
+    }
+
 };
 
 
@@ -493,23 +548,18 @@ graph.addVertex('E');
 graph.addEdgeWithWeight('A', 'B', 2);
 graph.addEdgeWithWeight('A', 'D', 6);
 
-graph.addEdgeWithWeight('B', 'A', 2);
 graph.addEdgeWithWeight('B', 'D', 8);
-graph.addEdgeWithWeight('B', 'E', 5);
 graph.addEdgeWithWeight('B', 'C', 3)
 
-graph.addEdgeWithWeight('C', 'B', 3);
 graph.addEdgeWithWeight('C', 'E', 7);
 
-graph.addEdgeWithWeight('D', 'A', 6);
-graph.addEdgeWithWeight('D', 'B', 8);
-
 graph.addEdgeWithWeight('E', 'B', 5);
-graph.addEdgeWithWeight('E', 'C', 7);
 
 graph.displayAdjencyList();
 
+const result = graph.callMinimumSpanningTreeUsingPrimAlgo('A');
 
+console.log(result);
 
 
 
